@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Show-hole</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>show hole</title>
+        <link rel="stylesheet" href="style.css">
   </head>
-  
   <body>
     <center>
-  	<div>
-      <h1> Showhole </h1>
-      <button type="button"> About the Creators </button>
-      <button type="button"> Add a submission! </button>
-    </div>
+      <h1 class="titletext" style="background-color: #663399">welcome to show hole...</></h1>
     
-     <!--About Showhole -->
+   
+    
+    
+    <img src="https://m.media-amazon.com/images/M/MV5BMTgzNjAzMDE0NF5BMl5BanBnXkFtZTcwNTEyMzM3OA@@._V1_UY268_CR7,0,182,268_AL_.jpg" style="width:200px" class ="movie_images"> <img src="https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg" style="width:200px" class ="movie_images"> <img src="https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_UX182_CR0,0,182,268_AL_.jpg" style="width:200px" class ="movie_images"> <img src="https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-film-page_bca06283.jpeg?region=0%2C0%2C480%2C711" style="width:200px" class ="movie_images"><img src="https://m.media-amazon.com/images/M/MV5BZDNmNmI5MGItMjUyOC00ODg4LWE0NmEtMzg5MjUzOWI2MDcwXkEyXkFqcGdeQXVyNjYzNDE4ODA@._V1_UX182_CR0,0,182,268_AL_.jpg" style="width:200px" class ="movie_images"> <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg"style="width:200px" class ="movie_images"> 
 
-  	<h2> What's showhole? </h2>
-  	<p> Showhole is a recommendation and suggestion site, just for you! You'll be able to choose whether to enter the name of a show/ movie and get similar recommendations, or choose genres or keywords</p>
+    <h4 class="request"> Wanna know what to watch next? Enter a show you like: </h4>
+      
+      <h4 class="tag_select"> ...or choose your favorite genres: </h4>
+  
+    </center>
     
      <!--Need a textbox for typing in a movie/show -->
     
@@ -26,83 +27,83 @@
      <center>
        <form method = "post" action = "/results">
          
-        <div id="tag">
+        <div class="tag">
           <label>
             <input type="checkbox" name="tag1" value="familykids"><span>FAMILY/KIDS</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag2" value="realitytv"><span>REALITY TV</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag3" value="comedy"><span>COMEDY</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag4" value="mystery"><span>MYSTERY</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag5" value="teen"><span>TEEN</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag6" value="fantasy"><span>FANTASY</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag7" value="scifi"><span>SCI-FI</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag8" value="drama"><span>DRAMA</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag9" value="romance"><span>ROMANCE</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag10" value="horror"><span>HORROR</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag11" value="thriller"><span>THRILLER</span>
           </label>
         </div>
          
-         <div id="tag">
+         <div class="tag">
           <label>
             <input type="checkbox" name="tag12" value="adventure"><span>ADVENTURE</span>
           </label>
         </div>
-    
-        <input type= "submit">
+        </br></br></br></br>
+        <input id= "submit" type= "submit">
       </form>
     </center>
 
-<center>
+
     </center>
     
      <!--Need a list of movies to display once the user has entered input -->
@@ -110,6 +111,8 @@
     </center>
   </body>
 </html>
+
+
 
 
 
