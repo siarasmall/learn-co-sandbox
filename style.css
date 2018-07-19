@@ -1,0 +1,43 @@
+
+
+div label input {
+   margin-right:100px;
+}
+body {
+    font-family:helvetica;
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+#tag {
+    margin:4px;
+    color:#FFFFFF;
+    background-color:#3E1C8A;
+    border-radius:4px;
+    border:1px solid #140830;
+    overflow:auto;
+    float:left;
+}
+
+#tag label {
+    float:left;
+    width:8.0em;
+}
+
+#tag:hover {background-color:#1B0846}
+
+#tag label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+}
+
+#tag label input {
+    position:absolute;
+    top:-20px;
+}
+
+#tag input:checked + span {
+    background-color:#1B0846;
+    color:#FFFFFF;
+}
